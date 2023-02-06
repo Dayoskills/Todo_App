@@ -26,7 +26,7 @@ $data = mysqli_fetch_array($result2);
             <input type="hidden" value="<?php echo $data['id']; ?>" name="id">
         </div>
         <div class="col-2">
-            <button class="btn btn-outline-primary"><i class="fa-solid fa-square-plus"></i></button>
+            <button class="btn btn-outline-primary">Update</i></button>
         </div>
     </div>    
 </div>
